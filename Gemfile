@@ -32,7 +32,7 @@ gem 'jbuilder', '~> 2.5'
 gem "geocoder"
 gem "figaro"
 gem 'materialize-sass', '~> 1.0.0.alpha4'
-
+gem 'jquery-rails'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
