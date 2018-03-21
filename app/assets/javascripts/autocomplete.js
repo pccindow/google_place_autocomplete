@@ -1,4 +1,4 @@
-$( document ).ready(function() {
+$( document ).on('turbolinks:load', function() {
 function initializeAutocomplete(id) {
     var element = document.getElementById(id);
     if (element) {
