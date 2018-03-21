@@ -25,5 +25,5 @@ function initializeAutocomplete(id) {
 
   google.maps.event.addDomListener(window, 'load', function() {
     initializeAutocomplete('autocomplete_address');
-  }
+  });
 });
