@@ -12,41 +12,43 @@
   <% end %>
 
   <div class="field">
-    <%= form.label :address %>
-    <%= form.text_field :address, id: :autocomplete_address %>
+    <%= form.label 'Adresse' %>
+    <%= form.text_field :address, placeholder: "Entrez votre adresse", id: :autocomplete_address %>
   </div>
 
   <div class="field">
-    <%= form.label :street_number %>
-    <%= form.number_field :street_number, id: :autocomplete_street_number %>
+    <%= form.label 'N° de voie' %>
+    <%= form.number_field :street_number, id: :street_number %>
   </div>
 
   <div class="field">
-    <%= form.label :locality %>
-    <%= form.text_field :locality, id: :autocomplete_locality %>
+    <%= form.label 'Ville' %>
+    <%= form.text_field :locality, id: :locality %>
   </div>
 
   <div class="field">
-    <%= form.label :route %>
-    <%= form.text_field :route, id: :autocomplete_route %>
+    <%= form.label 'Nom de la voie' %>
+    <%= form.text_field :route, id: :route %>
   </div>
 
   <div class="field">
-    <%= form.label :administrative_area_level_1 %>
-    <%= form.text_field :administrative_area_level_1, id: :autocomplete_administrative_area_level_1 %>
+    <%= form.label 'Région' %>
+    <%= form.text_field :administrative_area_level_1, id: :administrative_area_level_1 %>
   </div>
 
   <div class="field">
-    <%= form.label :country %>
-    <%= form.text_field :country, id: :autocomplete_country %>
+    <%= form.label 'Pays' %>
+    <%= form.text_field :country, id: :country %>
   </div>
 
   <div class="field">
-    <%= form.label :postal_code %>
-    <%= form.number_field :postal_code, id: :autocomplete_postal_code %>
+    <%= form.label 'Code postal' %>
+    <%= form.number_field :postal_code, id: :postal_code %>
   </div>
 
   <div class="actions">
-    <%= form.submit %>
+    <div class="btn waves-effect waves-light">
+      <%= form.submit "Rechercher" %>
+    </div>
   </div>
 <% end %>
