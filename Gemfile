@@ -33,6 +33,16 @@ gem "geocoder"
 gem "figaro"
 gem 'materialize-sass', '~> 1.0.0.alpha4'
 gem 'jquery-rails'
+# need to be updated
+gem "sprockets", ">= 3.7.2"
+gem "actionview", ">= 5.1.6.2"
+gem "rubyzip", ">= 1.2.2"
+gem "ffi", ">= 1.9.24"
+gem "nokogiri", ">= 1.8.5"
+gem "activejob", ">= 5.1.6.1"
+gem "rack", ">= 2.0.6"
+gem "loofah", ">= 2.2.3"
+gem "rails-html-sanitizer", ">= 1.0.4"
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
